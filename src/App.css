@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #1E1F37;
+  /*#1E1F37*/
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Bottom left text */
+.text-block {
+  max-width: 480px;
+  word-wrap: break-word;
+  font-family: "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black;
+  font-size: 2.5em;
+  /*Text taken out the css flow and positioned relative to the positioned ancestor element*/
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-align: center;
+  /*background-color: black;*/
+  color: white;
+}
+
+.image-block {
+  max-width: 500px;
+  margin: 10px;
+  box-shadow: 0 10px 20px black;
+}
+
+.image-info {
+  color: white;
+  font-size: large;
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+  padding: 20px;
+  font-size: large;
+}
+
+a {
+  color: white;
+}
+
+button {
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  padding: 20px;
+  font-size: large;
+}
+
+.me {
+  color: #BDBDBD;
+  margin-left: 10px;
+}
+
+.me a {
+  color: #BDBDBD
+}
